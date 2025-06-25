@@ -1,0 +1,42 @@
+﻿@page
+@model TarefasApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Lista de Tarefas";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0">Lista de Tarefas</h2>
+            </div>
+            <div class="card-body">
+                <form method="post" class="row g-2 mb-4">
+                    <div class="col-md-5">
+                        <input asp-for="NovaTarefa.Titulo" class="form-control" placeholder="Título" required />
+                    </div>
+                    <div class="col-md-5">
+                        <input asp-for="NovaTarefa.Descricao" class="form-control" placeholder="Descrição" required />
+                    </div>
+                    <div class="col-md-2 d-grid">
+                        <button type="submit" class="btn btn-success">Adicionar</button>
+                    </div>
+                </form>
+                <ul class="list-group">
+                @foreach (var tarefa in Model.Tarefas)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <b>@tarefa.Titulo</b>: @tarefa.Descricao
+                        </div>
+                        <div>
+                            <a asp-page="/Editar" asp-route-id="@tarefa.Id" class="btn btn-sm btn-outline-primary me-2">Editar</a>
+                            <a asp-page="/Shared/Excluir" asp-route-id="@tarefa.Id" class="btn btn-sm btn-outline-danger">Excluir</a>
+                        </div>
+                    </li>
+                }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
