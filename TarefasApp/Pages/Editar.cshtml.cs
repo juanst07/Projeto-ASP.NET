@@ -31,6 +31,7 @@ namespace TarefasApp.Pages
 
             tarefaExistente.Titulo = Tarefa.Titulo;
             tarefaExistente.Descricao = Tarefa.Descricao;
+            tarefaExistente.Concluida = Tarefa.Concluida;
             await _context.SaveChangesAsync();
 
             return RedirectToPage("/Index");

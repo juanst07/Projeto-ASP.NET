@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L4Neb/5qIkovAjxZ/jXbw5C7WqLNKmD/ZEEHj8xBhCo=",
+  "Hash": "hTc2DLTyqsBiUl3GXcBSMaAmmF/RUEJz5qmfAZPsUOc=",
   "Source": "TarefasApp",
   "BasePath": "_content/TarefasApp",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "hlpuqyip5x",
-      "Integrity": "FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=",
+      "Fingerprint": "3t62a4vtev",
+      "Integrity": "CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TarefasApp.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "hlpuqyip5x",
-      "Integrity": "FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=",
+      "Fingerprint": "3t62a4vtev",
+      "Integrity": "CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TarefasApp.bundle.scp.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "dj61ivirsi",
+      "Integrity": "WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1384,51 +1384,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 16:35:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1439,7 +1394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "2386"
         },
         {
           "Name": "Content-Type",
@@ -1447,11 +1402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 16:35:21 GMT"
+          "Value": "Wed, 25 Jun 2025 19:04:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1461,7 +1416,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.dj61ivirsi.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 19:04:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dj61ivirsi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU="
         }
       ]
     },
@@ -6550,6 +6550,96 @@
       ]
     },
     {
+      "Route": "TarefasApp.3t62a4vtev.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TarefasApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 19:11:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3t62a4vtev"
+        },
+        {
+          "Name": "label",
+          "Value": "TarefasApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc="
+        }
+      ]
+    },
+    {
+      "Route": "TarefasApp.3t62a4vtev.styles.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TarefasApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 19:11:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3t62a4vtev"
+        },
+        {
+          "Name": "label",
+          "Value": "TarefasApp.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc="
+        }
+      ]
+    },
+    {
       "Route": "TarefasApp.bundle.scp.css",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TarefasApp.bundle.scp.css",
       "Selectors": [],
@@ -6560,7 +6650,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "1884"
         },
         {
           "Name": "Content-Type",
@@ -6568,11 +6658,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=\""
+          "Value": "\"CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 16:56:11 GMT"
+          "Value": "Wed, 25 Jun 2025 19:11:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6582,97 +6672,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k="
-        }
-      ]
-    },
-    {
-      "Route": "TarefasApp.hlpuqyip5x.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TarefasApp.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 16:56:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hlpuqyip5x"
-        },
-        {
-          "Name": "label",
-          "Value": "TarefasApp.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k="
-        }
-      ]
-    },
-    {
-      "Route": "TarefasApp.hlpuqyip5x.styles.css",
-      "AssetFile": "C:\\Users\\Alunos\\Documents\\juanst07\\Projeto-ASP.NET\\TarefasApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TarefasApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 16:56:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hlpuqyip5x"
-        },
-        {
-          "Name": "label",
-          "Value": "TarefasApp.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k="
+          "Value": "sha256-CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc="
         }
       ]
     },
@@ -6687,7 +6687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "1884"
         },
         {
           "Name": "Content-Type",
@@ -6695,11 +6695,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=\""
+          "Value": "\"CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 16:56:11 GMT"
+          "Value": "Wed, 25 Jun 2025 19:11:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6709,7 +6709,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FV9mv+dv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k="
+          "Value": "sha256-CWdpj1NvHd/Uqhts2WP/R8OKbX4+8RmU5JPC7Ypg3oc="
         }
       ]
     }

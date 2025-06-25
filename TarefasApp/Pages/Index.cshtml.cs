@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -23,7 +24,7 @@ namespace TarefasApp.Pages
 
         public async Task<IActionResult> OnGetAsync()
         {
-            Tarefas = await _context.Tarefas.ToListAsync();
+            Tarefas = await _context.Tarefas.OrderBy(t => t.Concluida).ThenBy(t => t.Id).ToListAsync();
             return Page();
         }
 
@@ -31,9 +32,20 @@ namespace TarefasApp.Pages
         {
             if (!ModelState.IsValid)
                 return Page();
-
+            NovaTarefa.Concluida = false;
             _context.Tarefas.Add(NovaTarefa);
             await _context.SaveChangesAsync();
+            return RedirectToPage();
+        }
+
+        public async Task<IActionResult> OnPostToggleConcluidaAsync(int id)
+        {
+            var tarefa = await _context.Tarefas.FindAsync(id);
+            if (tarefa != null)
+            {
+                tarefa.Concluida = !tarefa.Concluida;
+                await _context.SaveChangesAsync();
+            }
             return RedirectToPage();
         }
     }

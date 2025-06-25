@@ -1,5 +1,6 @@
 html {
-  font-size: 14px;
+  font-size: 15px;
+  background: #f5f5f5;
 }
 
 @media (min-width: 768px) {
@@ -18,7 +19,10 @@ html {
 }
 
 body {
+  background: #f5f5f5;
   margin-bottom: 60px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +32,97 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+}
+
+.card-header {
+  border-radius: 1rem 1rem 0 0;
+  background: #fff;
+  border-bottom: none;
+}
+
+.card-body {
+  background: #f8fafc;
+}
+
+.form-control, .btn {
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+
+.btn-success, .btn-outline-success {
+  background: #22c55e;
+  border: none;
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #6b7280;
+}
+
+.btn-outline-primary {
+  border: 1px solid #60a5fa;
+  color: #2563eb;
+  background: #fff;
+}
+
+.btn-outline-danger {
+  border: 1px solid #f87171;
+  color: #dc2626;
+  background: #fff;
+}
+
+.list-group-item {
+  border: none;
+  background: #fff;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px #0001;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.badge.bg-success {
+  background: #22c55e !important;
+}
+
+.badge.bg-warning {
+  background: #fde68a !important;
+  color: #b45309 !important;
+}
+
+.navbar, .navbar-brand, .navbar-nav .nav-link {
+  background: #f5f5f5 !important;
+  color: #222 !important;
+}
+
+.navbar-nav .nav-link.active, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: #222 !important;
+  color: #fff !important;
+}
+
+a, a:visited {
+  color: #222 !important;
+}
+
+a:hover {
+  color: #000 !important;
+}
+
+input, textarea, select {
+  background: #fff !important;
+  color: #222 !important;
+  border-color: #d1d5db !important;
+}
+
+hr, .border-top, .border-bottom {
+  border-color: #d1d5db !important;
 }

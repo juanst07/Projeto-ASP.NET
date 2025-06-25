@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS tarefasdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+USE tarefasdb;
+
+CREATE TABLE IF NOT EXISTS Tarefas (
+    Id INT NOT NULL AUTO_INCREMENT,
+    Titulo VARCHAR(255) NOT NULL,
+    Descricao TEXT NOT NULL,
+    Concluida BOOLEAN NOT NULL DEFAULT FALSE,
+    PRIMARY KEY (Id)
+);
+

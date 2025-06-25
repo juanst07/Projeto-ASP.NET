@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/TarefasApp/css/site.b9sayid5wm.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b9sayid5wm"},{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="},{"Name":"label","Value":"_content/TarefasApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 16:35:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TarefasApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 16:35:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2386"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 19:04:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TarefasApp/css/site.dj61ivirsi.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dj61ivirsi"},{"Name":"integrity","Value":"sha256-WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU="},{"Name":"label","Value":"_content/TarefasApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2386"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WeVrEMnMtGRmDgiwLqUWJZc5nP7y4D4a6yCIh6iRaEU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 19:04:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TarefasApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -756,17 +756,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 16:35:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TarefasApp/TarefasApp.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TarefasApp.hlpuqyip5x.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TarefasApp/TarefasApp.3t62a4vtev.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TarefasApp.3t62a4vtev.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FV9mv\u002Bdv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FV9mv\u002Bdv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 16:56:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3t62a4vtev"},{"Name":"integrity","Value":"sha256-CWdpj1NvHd/Uqhts2WP/R8OKbX4\u002B8RmU5JPC7Ypg3oc="},{"Name":"label","Value":"_content/TarefasApp/TarefasApp.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1884"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CWdpj1NvHd/Uqhts2WP/R8OKbX4\u002B8RmU5JPC7Ypg3oc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 19:11:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TarefasApp/TarefasApp.hlpuqyip5x.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TarefasApp.hlpuqyip5x.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TarefasApp/TarefasApp.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TarefasApp.3t62a4vtev.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hlpuqyip5x"},{"Name":"integrity","Value":"sha256-FV9mv\u002Bdv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k="},{"Name":"label","Value":"_content/TarefasApp/TarefasApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FV9mv\u002Bdv0m4CfzieQ4mx/JKgsBM1obFPoRiL02tb95k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 16:56:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CWdpj1NvHd/Uqhts2WP/R8OKbX4\u002B8RmU5JPC7Ypg3oc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1884"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CWdpj1NvHd/Uqhts2WP/R8OKbX4\u002B8RmU5JPC7Ypg3oc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 25 Jun 2025 19:11:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
