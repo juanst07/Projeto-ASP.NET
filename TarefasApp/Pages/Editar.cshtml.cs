@@ -20,18 +20,23 @@ namespace TarefasApp.Pages
         public async Task<IActionResult> OnGetAsync(int id)
         {
             Tarefa = await _context.Tarefas.FindAsync(id);
-            if (Tarefa == null) return RedirectToPage("/Index");
+            if (Tarefa == null)
+            {
+                return RedirectToPage("/Index");
+            }
             return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
             var tarefaExistente = await _context.Tarefas.FindAsync(Tarefa.Id);
-            if (tarefaExistente == null) return RedirectToPage("/Index");
+            if (tarefaExistente == null)
+            {
+                return RedirectToPage("/Index");
+            }
 
             tarefaExistente.Titulo = Tarefa.Titulo;
             tarefaExistente.Descricao = Tarefa.Descricao;
-            tarefaExistente.Concluida = Tarefa.Concluida;
             await _context.SaveChangesAsync();
 
             return RedirectToPage("/Index");

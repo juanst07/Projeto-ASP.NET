@@ -15,12 +15,6 @@
                     <div class="col-12 mb-3">
                         <input asp-for="Tarefa.Descricao" class="form-control border-0 shadow-sm" required />
                     </div>
-                    <div class="col-12 mb-3">
-                        <div class="form-check">
-                            <input asp-for="Tarefa.Concluida" class="form-check-input" type="checkbox" id="concluidaCheck" />
-                            <label class="form-check-label" for="concluidaCheck">Concluída</label>
-                        </div>
-                    </div>
                     <div class="col-12 d-flex justify-content-between">
                         <button type="submit" class="btn btn-success shadow-sm">Salvar</button>
                         <a asp-page="/Index" class="btn btn-outline-secondary">Cancelar</a>
